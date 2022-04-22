@@ -76,8 +76,8 @@ monogatari.assets ('scenes', {
 // Define the Characters
 monogatari.characters ({
 	'y': {
-		name: 'Yui',
-		color: '#5bcaff'
+		name: 'Dave',
+		color: '#adc6e6'
 	}
 });
 
@@ -113,7 +113,7 @@ monogatari.script ({
 		'y Hi {{player.name}} Welcome to this test Monogatari!',
 		{
 			'Choice': {
-				'Dialog': 'y Do you think Linda has read some documentation yet?',
+				'Dialog': 'y Do you think Dave has read some documentation yet?',
 				'Yes': {
 					'Text': 'Yes',
 					'Do': 'jump Yes'
